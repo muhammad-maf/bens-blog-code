@@ -44,7 +44,7 @@ def ochiai(a, b):
 # cosine distances
 def cosine(a, b):
     return dot(a, b.T)[0, 0] / (norm2(a) * norm2(b))
-
+// here
 
 @store_result
 def norm2(artist):
